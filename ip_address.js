@@ -5,6 +5,7 @@ function init_connection(){
     var connection = {}
     connection.ip_address = '127.0.0.1';
     connection.dc = 'dc1'
+
     connection.path_to_creds=''
     connection.client = new cassandra.Client({ 
         contactPoints: [connection.ip_address],
