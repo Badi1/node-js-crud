@@ -2,8 +2,8 @@ const connection = require('./ip_address')
 
 // this is a select statement in nodejs
 connection.client
-.execute('SELECT * FROM killrvideo.advocates WHERE region = ? AND city = ? AND last_name = ? AND first_name = ?',
-['North Carolina', 'Charlotte', 'Veale', 'Cristina'])
+.execute('SELECT * FROM killrvideo.user_credentials WHERE email = ?',
+['cv@datastax.com'])
 .then(function(result){
     result.rows.forEach(row => {
         console.log(row)

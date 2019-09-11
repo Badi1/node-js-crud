@@ -2,8 +2,8 @@ const connection = require('./ip_address')
 
 // this is a update statement in nodejs
 connection.client.execute(
-    'UPDATE killrvideo.advocates SET super_power = ? WHERE region = ? AND city = ? AND last_name = ? AND first_name = ?',
-    ['wormhole time travel', 'North Carolina', 'Charlotte', 'Veale', 'Cristina'],
+    'UPDATE killrvideo.user_credentials SET password = ? WHERE email = ?',
+    ['Cr1st1n@sN3wP@ssW0rd', 'cv@datastax.com'],
     { prepare : true }
 )
 .then(function (result){
