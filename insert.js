@@ -1,4 +1,4 @@
-const connection = require('./ip_address')
+const connection = require('./db_connection')
 const Uuid = require('cassandra-driver').types.Uuid;
 
 // this is an insert statement in nodejs

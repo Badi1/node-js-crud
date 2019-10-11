@@ -1,4 +1,4 @@
-const connection = require('./ip_address')
+const connection = require('./db_connection')
 
 // this is a select statement in nodejs
 connection.client
