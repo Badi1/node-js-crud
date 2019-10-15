@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "select": "node select.j",
-    "insert": "node insert.j",
-    "delete": "node delete.j",
-    "update": "node update.j"
+    "select": "node select.js",
+    "insert": "node insert.js",
+    "delete": "node delete.js",
+    "update": "node update.js"
   },
   "repository": {
     "type": "git",
